@@ -6,6 +6,50 @@
     <title>Weather App</title>
 </head>
 <body>
-    
+    <form class="search-container">
+        <input type="text" class="search-bar" placeholder="Search for a location...">
+    </form>
+
+    <div class="settings-container">
+        <div class="toggle-container">
+            <span>°F</span>
+            <label class="toggle-switch">
+                <input type="checkbox" class="toggle-temp">
+                <span class="slider"></span>
+            </label>
+            <span>°C</span>
+        </div>
+
+        <div class="toggle-container">
+            <span>Days: </span>
+            <select class="days-selector">
+                <option value="1">1 Day</option>
+                <option value="3">3 Days</option>
+                <option value="5">5 Days</option>
+                <option value="7">7 Days</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="weather-card">
+        <div class="location">San Francisco, CA</div>
+        <img src="https://cdn-icons-png.flaticon.com/512/4814/4814268.png" alt="weather-icon" class="weather-icon">
+        <div class="temperature">72°F</div>
+        <div class="weather-description">Partly Cloudy</div>
+        <div class="weather-info">
+            <div class="info-item">
+                <strong>Humidity</strong>
+                <p>65%</p>
+            </div>
+            <div class="info-item">
+                <strong>Wind</strong>
+                <p>12 mph</p>
+            </div>
+            <div class="info-item">
+                <strong>Feels Like</strong>
+                <p>70°F</p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
