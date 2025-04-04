@@ -164,3 +164,9 @@ input:checked + .slider:before {
   flex-wrap: wrap;
   gap: 30px;
 }
+
+.card-container img {
+  width: 200px;
+  height: 200px;
+  color: #0083b0;
+}
